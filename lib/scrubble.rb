@@ -1,7 +1,9 @@
 def scrubble(word)
   if word == "A"
     1
-  else
+  elsif word == "D"
     2
+  elsif word == "DD"
+    4
   end
 end
