@@ -27,15 +27,12 @@ def scrubble(word)
     "J" => 8,
     "X" => 8,
     "Q" => 10,
-    "Z" => 10
-    # :" " => 0
+    "Z" => 10,
+    " " => 0
   }
 
   score = 0
 
   word.each_char { |char| score += alphabet[char] }
   score
-
 end
-
-# p scrubble("AD")
