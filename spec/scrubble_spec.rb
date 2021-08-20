@@ -12,4 +12,8 @@ describe "scrubble" do
   it "returns 2 when passed 'DD'" do
     expect(scrubble("DD")).to eq 4
   end
+
+  it "returns 6 when passed 'GOOD'" do
+    expect(scrubble("GOOD")).to eq 6
+  end
 end
